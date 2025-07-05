@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #a3a876;
+        }
+       nav{
+        text-align: center;
+       }
+       a{
+        padding-top: 5px;
+        padding-right: 50px;
+       }
+       
+    </style>
+</head>
+<body id="body1">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Removed container-fluid to simplify layout -->
+    <a class="nav-link active" aria-current="page" href="todolist.html">My Todo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span  class="navbar-toggler-icon"><a class="nav-link" href="loginpage.html">Logout</a></span>
+    </button>
+
+</nav>
+
+      <h1>Daily Tasks(To-Do List)</h1>
+      <div class="container">
+        <h1 class="head1">Today's Tasks</h1>
+        <ul id="todolist" class="todo-list"></ul>
+      </div>
+      <script src="todolist.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
